@@ -1,7 +1,7 @@
 # Unreal Bunny
 
-This is an attempt to display the Stanford Bunny point cloud in Unreal Engine, as described in [this Unreal forum post](https://forums.unrealengine.com/showthread.php?91501-How-to-place-single-GPU-particles-at-specified-locations&p=428488&viewfull=1\#post428488).
+This is an Unreal Engine project that uses a custom material and blueprint to display the Stanford Bunny as a point cloud, using the technique created by  [xnihil0zer0](https://forums.unrealengine.com/member.php?27525-xnihil0zer0) and described in [this Unreal forum thread](https://forums.unrealengine.com/showthread.php?91501).
 
-I thought I followed all the steps listed, but no points are displayed.
+This method uses a bitmap image derived from the point cloud as a lookup table to position the individual particles.
 
-Hopefully there is some elementary Unreal Engine thing I missed. If anyone has any idea what is wrong, pointers are much appreciated!
+Many thanks to xnihil0zer0 for creating this technique, and for the kind and patient assistance in getting my version of it working.
